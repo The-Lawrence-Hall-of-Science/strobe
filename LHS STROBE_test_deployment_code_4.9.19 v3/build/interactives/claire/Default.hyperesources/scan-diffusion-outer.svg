@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="85" height="69" viewBox="0 0 85 69">
+  <defs>
+    <radialGradient id="scan-diffusion-outer-a" cx="53.639%" cy="21.129%" r="78.471%" fx="53.639%" fy="21.129%" gradientTransform="matrix(0 1 -.8467 0 .715 -.325)">
+      <stop offset="0%" stop-color="#F2E4FF"/>
+      <stop offset="48.575%" stop-color="#D07CB0"/>
+      <stop offset="100%" stop-color="#F2E4FF"/>
+    </radialGradient>
+  </defs>
+  <path fill="url(#scan-diffusion-outer-a)" fill-rule="evenodd" d="M403.5,69 C426.972102,69 446,49.6322193 446,26 C446,16.143991 442.561398,7.23428775 437,-2.13162821e-14 L369.732846,-2.13162821e-14 C364.254872,7.20447288 361,16.2259169 361,26 C361,49.6322193 380.027898,69 403.5,69 Z" transform="translate(-361)"/>
+</svg>

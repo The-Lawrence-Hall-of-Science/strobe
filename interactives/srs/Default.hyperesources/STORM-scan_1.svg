@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="92px" height="37px" viewBox="0 0 92 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>STORM-scan_1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="95.2380952%" gradientTransform="translate(0.500000,0.500000),scale(0.525000,1.000000),scale(1.000000,0.620057),translate(-0.500000,-0.500000)" id="radialGradient-1">
+            <stop stop-color="#E291FF" offset="0%"></stop>
+            <stop stop-color="#0665C1" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="106.25%" gradientTransform="translate(0.500000,0.500000),scale(0.470588,1.000000),scale(1.000000,0.620057),translate(-0.500000,-0.500000)" id="radialGradient-2">
+            <stop stop-color="#E291FF" offset="0%"></stop>
+            <stop stop-color="#0665C1" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="106.25%" gradientTransform="translate(0.500000,0.500000),scale(0.470588,1.000000),scale(1.000000,0.620057),translate(-0.500000,-0.500000)" id="radialGradient-3">
+            <stop stop-color="#91FFB8" offset="0%"></stop>
+            <stop stop-color="#0665C1" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Interactive" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SR-STORM" transform="translate(-171.000000, -411.000000)">
+            <g id="STORM-scan_1" transform="translate(171.000000, 411.000000)">
+                <ellipse id="bottom" fill="url(#radialGradient-1)" cx="46" cy="26.5" rx="20" ry="10.5"></ellipse>
+                <ellipse id="top-right" fill="url(#radialGradient-2)" cx="75" cy="8" rx="17" ry="8"></ellipse>
+                <ellipse id="top-left" fill="url(#radialGradient-3)" cx="17" cy="8" rx="17" ry="8"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,35 @@
+CACHE MANIFEST
+
+CACHE:
+auth.js
+expired.html
+index.html
+version.txt
+assets/fonts/BentonSans-Bold.eot
+assets/fonts/BentonSans-Bold.otf
+assets/fonts/BentonSans-Bold.svg
+assets/fonts/BentonSans-Bold.ttf
+assets/fonts/BentonSans-Bold.woff
+assets/fonts/BentonSans-Medium.ttf
+assets/fonts/BentonSans-Regular.ttf
+assets/images/loadingScreen/loading-screen.png
+css/all.css
+code/jquery-2.1.1.min.js
+code/jquery.mobile.custom.min.js
+js/utils/index.html
+js/body.js
+js/head.js
+views/informationPopup/informationPopup.html
+views/languageToggle/languageToggle.html
+views/levelSelectMenu/levelSelectMenu.html
+views/loadingView/loadingView.html
+views/mainView/mainView.html
+views/slider/slider.html
+
+NETWORK:
+*
+
+SETTINGS:
+prefer-online
+
+# hash: e50e3db6c84e40d0a11ffe2c377be90f8b90ad7c27e6a1983689e141b46ae018

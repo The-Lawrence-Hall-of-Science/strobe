@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="212" viewBox="0 0 72 212">
+  <defs>
+    <radialGradient id="tilt_arrows-a" cy="24.913%" r="145.02%" fx="50%" fy="24.913%" gradientTransform="matrix(-.22078 .73557 -.23972 -.67745 .67 .05)">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="36.904%" stop-color="#F7F7F7"/>
+      <stop offset="100%" stop-color="#D8D8D8"/>
+    </radialGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="rotate(-90 106 106)">
+    <path fill="url(#tilt_arrows-a)" d="M22.8345303,69.0930723 L-2.84217094e-14,49.3191579 C25.7699694,19.1362206 64.0989465,-2.84217094e-14 106.897427,-2.84217094e-14 C151.903844,-2.84217094e-14 186.295411,15.0840113 212.009524,48 L189.437722,66.2299937 C169.137566,43.9686878 139.898777,30 107.397427,30 C73.5240857,30 43.1945673,45.1729102 22.8345303,69.0930723 Z"/>
+    <polygon fill="#FFF" points="1 55 18.251 69.485 1 72"/>
+    <polygon fill="#FFF" points="194 53 211.251 67.485 194 70" transform="matrix(-1 0 0 1 405.251 0)"/>
+  </g>
+</svg>

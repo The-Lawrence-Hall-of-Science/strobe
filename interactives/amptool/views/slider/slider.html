@@ -1,0 +1,20 @@
+<div class="sliderBackgroundContainer"
+    ng-style="getSliderStyle()" >
+    <div class="labels">
+        <div class="label {{ label.id }}"" ng-repeat="label in sliderLabels" translate="{{ label.title }}"></div>
+    </div>
+    <div class="slider">
+        <div class="sliderThumbContainer unselectable"
+             ng-style="{
+                transform: 'translate(' + sliderOffset + 'px)'
+             }">
+
+            <div class="thumbImage unselectable" ng-style="getSliderThumbStyle()"></div>
+            <div class="thumbLabel unselectable">
+                10<sup id="sliderTextHolder"> {{ getSliderText() }} </sup>
+                <span translate="SLIDER.METERS"></span>
+            </div>
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,26 @@
+<div class="mainViewContainer">
+
+    <canvas id="mainViewCanvas"
+            ng-show="! isSmallActive"
+            width="1024px"
+            height="768px"
+            ng-click="onCanvasClick( $event )"></canvas>
+
+    <canvas id="smallCanvas"
+            ng-show="isSmallActive"
+            width="320px"
+            height="170px"
+            ng-click="onCanvasClick( $event )"></canvas>
+
+    <slider min="-16"
+            max="27"
+            ng-model="sliderValue"
+            on-slider-move="onSliderMove()"></slider>
+
+    <div class="fullScreenTransparent"
+         ng-class="{ active: isPopupActive }"
+         ng-click="onScreenClick( $event )"></div>
+
+    <information-popup></information-popup>
+
+</div>

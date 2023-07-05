@@ -1,0 +1,59 @@
+<!doctype html>
+<html manifest="scaleTool.manifest">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="format-detection" content="telephone=no">
+
+
+    <title translate="TITLE"></title>
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+    <!-- Disallow zooming. -->
+    <meta name="viewport" content="width=1024, initial-scale=1, maximum-scale=1,user-scalable=no">
+
+    <!-- Allow the app to be added to the home screen on iOS devices. -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <script src="js/head.js"></script>
+
+    <link rel="stylesheet" href="css/all.css">
+
+    <!-- auto incremented during the build step -->
+    <meta name="version" content="1.0.0">
+
+    <link rel="apple-touch-icon" href="images/icons/Icon-60@2x.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/icons/Icon-60@3x.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="images/icons/Icon-76.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="images/icons/Icon-76@2x.png" />
+    <link rel="apple-touch-icon" sizes="58x58" href="images/icons/Icon-Small@2x.png" />
+    <script src='code/jquery-2.1.1.min.js'></script>
+    <script src='code/jquery.mobile.custom.min.js'></script>
+</head>
+
+<body>
+    <div style="font-family: BentonSans-Book; visibility: hidden;">.</div>
+    <div style="font-family: BentonSans-Bold; visibility: hidden;">.</div>
+
+    <script src="js/body.js"></script>
+
+    <div>
+        <div id="theMain" ng-controller="MainController">
+            <loading-view ng-if="!isAppInited"></loading-view>
+            <div class="appContent" ng-if="isAppInited">
+              <main-view></main-view>
+              <level-select-menu
+                  ng-if="isAppInited"
+                  level-header="{{ appName }}"
+                  level-panel-is-open="levelSelectPanelVisibilityChanged(isOpen)"
+                  categories="categories"
+                  level-selected="levelSelected(level)"
+                  is-app-online="isAppOnline">
+              </level-select-menu>
+            </div>
+            <!-- <language-toggle></language-toggle> -->
+        </div>
+    </div>
+</body>
+</html>

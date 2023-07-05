@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="41" viewBox="0 0 40 41">
+  <g fill="none" fill-rule="evenodd">
+    <polygon fill="#F2B6FF" stroke="#B177E4" points="3.536 8 16.48 .647 32.871 6.741 39.747 23 30.978 38 13.404 41 .344 29.888"/>
+    <polyline stroke="#B177E4" stroke-linejoin="round" points="10.37 30.767 7.294 36 22.148 33.945 30.266 36.696"/>
+    <polyline stroke="#B177E4" stroke-linejoin="round" points="3.618 8 8.963 17.406 23.823 9 31.629 14.255 30.148 25.706 23.022 33 10.985 30 8.963 17.758 17.623 2 30.596 36.376 30.596 26.336 38.365 22.919 32.114 14.255 33.298 7 24.629 8.556 5.148 9 31.057 25 2.05 29.697 8.135 17.758 22.498 33.553 14.484 39.504 24.629 7.568"/>
+    <circle cx="3.5" cy="8.5" r="1.5" fill="#9013FE"/>
+    <circle cx="1.5" cy="29.5" r="1.5" fill="#9013FE"/>
+    <circle cx="14.5" cy="39.5" r="1.5" fill="#9013FE"/>
+    <circle cx="30.5" cy="37.5" r="1.5" fill="#9013FE"/>
+    <circle cx="38.5" cy="22.5" r="1.5" fill="#9013FE"/>
+    <circle cx="17.5" cy="1.5" r="1.5" fill="#9013FE"/>
+    <circle cx="31.5" cy="14.5" r="1.5" fill="#9013FE"/>
+    <circle cx="8.5" cy="17.5" r="1.5" fill="#9013FE"/>
+    <circle cx="22.5" cy="33.5" r="1.5" fill="#9013FE"/>
+    <circle cx="24.5" cy="8.5" r="1.5" fill="#9013FE"/>
+    <circle cx="10.5" cy="29.5" r="1.5" fill="#9013FE"/>
+    <circle cx="30.5" cy="25.5" r="1.5" fill="#9013FE"/>
+    <circle cx="14.5" cy="14.5" r="1.5" fill="#9013FE"/>
+    <circle cx="17.5" cy="27.5" r="1.5" fill="#9013FE"/>
+    <circle cx="33.5" cy="6.5" r="1.5" fill="#9013FE"/>
+  </g>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="132" height="131" viewBox="0 0 132 131">
+  <defs>
+    <path id="claire_energy-b" d="M61.7173657,106.354492 C59.8916393,100.836466 59.8916393,95.0761422 61.7173657,89.0735193 C64.4559552,80.0695848 61.9238618,84.2341325 71.2667773,74.9579373 C80.6096928,65.681742 90.5630232,69.5544728 91,60 C91.4369768,50.4455272 77.7648654,45.3679627 73,37.0611179 C68.2351346,28.7542731 67.1638516,23.1809219 65.7612864,16 C64.8262428,11.2127188 64.8262428,5.87938542 65.7612864,0 L61.7173657,0 C62.0017966,7.71181068 62.0017966,13.045144 61.7173657,16 C60.9200672,24.2828619 58.5877246,29.6730032 54.1707791,35.2660472 C44,48.1449961 36,45.6966639 36,60 C36.4621941,69.9705239 47.923036,71.1538259 50.6909441,74.9579373 C56.2807951,82.6404232 56.2807951,84.2123715 57.1112325,90.2444156 C57.4781424,92.9095373 57.4781424,98.2795627 57.1112325,106.354492 L61.7173657,106.354492 Z"/>
+    <filter id="claire_energy-a" width="132.7%" height="116.9%" x="-16.4%" y="-6.6%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="2" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feMorphology in="SourceAlpha" radius="2" result="shadowInner"/>
+      <feOffset dy="2" in="shadowInner" result="shadowInner"/>
+      <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.721193016   0 0 0 0 0.912749648   0 0 0 0 0.527202904  0 0 0 1 0"/>
+    </filter>
+    <path id="claire_energy-d" d="M69.052553,106.354492 C69.8673996,102.787454 72.3161068,98.002623 76.3986749,92 C82.5225269,82.9960655 88.9258992,84.7277985 100.045314,79 C111.164729,73.2722015 119.56967,68.5219986 119.56967,56.3033361 C119.56967,44.0846737 107.994653,37.1112341 93,33.764384 C78.0053472,30.4175339 72.1888763,22.8619514 69.052553,15.6810295 C66.9616709,10.8937483 65.2774865,5.66673842 64,2.84217094e-14 L59.7848348,2.84217094e-14 C56.787501,7.71181068 54.9708213,13.045144 54.3347957,16 C52.5519298,24.2828619 40.9227928,29.5491571 28.8848847,35.2660472 C5.10142559,46.5609849 1.42108547e-14,45.6966639 1.42108547e-14,60 C1.03352772,69.9705239 26.6615007,75.1958886 32.850913,79 C45.3505663,86.682486 43.3557696,88.9351387 45.2127385,94.9671829 C46.033198,97.6323045 46.6981302,101.428074 47.2075352,106.354492 L69.052553,106.354492 Z"/>
+    <filter id="claire_energy-c" width="115.1%" height="116.9%" x="-7.5%" y="-6.6%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="2" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feMorphology in="SourceAlpha" radius="2" result="shadowInner"/>
+      <feOffset dy="2" in="shadowInner" result="shadowInner"/>
+      <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.49415046   0 0 0 0 0.826234102   0 0 0 0 0.129877269  0 0 0 1 0"/>
+    </filter>
+    <path id="claire_energy-f" d="M60.2099106,106.354492 C64.4251087,100.729329 68.0469468,94.3752044 71.0754246,87.2921166 C83.5106174,74.9579373 102.443021,75.3033361 100.941027,56.3033361 C99.4390336,37.3033361 85.9973095,41.0114993 78.5472925,32.7046544 C71.0972755,24.3978096 68.7256628,23.1809219 66.5327078,16 C65.0707379,11.2127188 65.0707379,5.87938542 66.5327078,0 L60.2099106,0 C60.6546273,7.71181068 60.6546273,13.045144 60.2099106,16 C58.9633093,24.2828619 49.8757867,30.7801154 42.9697534,36.3731593 C27.0674203,49.2521082 20,45.6966639 20,60 C20.722655,69.9705239 34.2387093,72.1958886 38.5664208,76 C47.0059868,81.5624696 51.7096614,89.6568118 53.0080764,95.6888559 C53.5817515,98.3539776 53.5817515,101.90919 53.0080764,106.354492 L60.2099106,106.354492 Z"/>
+    <filter id="claire_energy-e" width="122.2%" height="116.9%" x="-11.1%" y="-6.6%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="2" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feMorphology in="SourceAlpha" radius="2" result="shadowInner"/>
+      <feOffset dy="2" in="shadowInner" result="shadowInner"/>
+      <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.970775187   0 0 0 0 0.907238424   0 0 0 0 0.109462149  0 0 0 1 0"/>
+    </filter>
+    <radialGradient id="claire_energy-i" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#7ED321"/>
+      <stop offset="100%" stop-color="#50E3C2"/>
+    </radialGradient>
+    <circle id="claire_energy-h" cx="59.5" cy="106.5" r="14.5"/>
+    <filter id="claire_energy-g" width="148.3%" height="148.3%" x="-24.1%" y="-17.2%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.49415046   0 0 0 0 0.826234102   0 0 0 0 0.129877269  0 0 0 1 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="rotate(-180 63 63.5)">
+    <use fill="#000" filter="url(#claire_energy-a)" xlink:href="#claire_energy-b"/>
+    <use stroke="#50E3C2" stroke-width="4" xlink:href="#claire_energy-b"/>
+    <use fill="#000" filter="url(#claire_energy-c)" xlink:href="#claire_energy-d"/>
+    <use stroke="#50E3C2" stroke-width="4" xlink:href="#claire_energy-d"/>
+    <use fill="#000" filter="url(#claire_energy-e)" xlink:href="#claire_energy-f"/>
+    <use stroke="#50E3C2" stroke-width="4" xlink:href="#claire_energy-f"/>
+    <use fill="#000" filter="url(#claire_energy-g)" xlink:href="#claire_energy-h"/>
+    <use fill="url(#claire_energy-i)" xlink:href="#claire_energy-h"/>
+  </g>
+</svg>

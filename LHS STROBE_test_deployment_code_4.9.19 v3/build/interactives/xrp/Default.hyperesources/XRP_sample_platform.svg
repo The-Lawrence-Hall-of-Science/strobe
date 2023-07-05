@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="69" height="146" viewBox="0 0 69 146">
+  <g fill="none" fill-rule="evenodd" transform="rotate(-90 73 73)">
+    <polygon fill="#5FBFF6" points="13.699 6.335 62.289 6.335 67.293 .5 71.019 6.335 70.388 6.335 122.575 6.335 126.5 55.5 7.661 55.5 10.27 31.038 .5 26.352 11.008 22.836"/>
+    <polygon fill="#4A90E2" points="7.5 54.5 8.955 68.5 125.76 68.5 126.5 54.5"/>
+    <polygon fill="#C7C7CC" points="96.514 13 99 46 37 46 40.5 13"/>
+    <polygon fill="#DAEEDD" points="87.876 19 89 38 46 38 47.327 19"/>
+    <polygon fill="#A3DAAC" points="84.469 21 85 35 50 35 50.483 21"/>
+    <g transform="translate(94 15)">
+      <path stroke="#979797" stroke-linecap="round" stroke-width="5" d="M0,2.5 L48.0793843,2.5"/>
+      <path stroke="#F5D8D8" stroke-linecap="round" stroke-width="5" d="M0,1.5 L48.0793843,1.5"/>
+      <circle cx="47.579" cy="1.5" r="1.5" fill="#A27272"/>
+    </g>
+    <g transform="translate(95 40)">
+      <path stroke="#979797" stroke-linecap="round" stroke-width="5" d="M0,2.5 L48.0793843,2.5"/>
+      <path stroke="#F5D8D8" stroke-linecap="round" stroke-width="5" d="M0,1.5 L48.0793843,1.5"/>
+      <circle cx="47.579" cy="1.5" r="1.5" fill="#A27272"/>
+    </g>
+  </g>
+</svg>

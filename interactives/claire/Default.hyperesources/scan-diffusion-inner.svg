@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="56" viewBox="0 0 70 56">
+  <defs>
+    <radialGradient id="scan-diffusion-inner-a" cx="53.639%" cy="21.129%" r="77.291%" fx="53.639%" fy="21.129%" gradientTransform="matrix(0 1 -.84934 0 .716 -.325)">
+      <stop offset="0%" stop-color="#7ED321"/>
+      <stop offset="47.053%" stop-color="#7ED321"/>
+      <stop offset="63.701%" stop-color="#EFFF1C" stop-opacity=".742"/>
+      <stop offset="100%" stop-color="#FFE75C" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <path fill="url(#scan-diffusion-inner-a)" fill-rule="evenodd" d="M403,57 C422.329966,57 438,41.1340443 438,21.6142831 C438,13.4734082 435.274394,5.97538331 430.694419,-2.13162821e-14 L375.191756,-2.13162821e-14 C370.680482,5.9507568 368,13.5410775 368,21.6142831 C368,41.1340443 383.670034,57 403,57 Z" transform="translate(-368)"/>
+</svg>

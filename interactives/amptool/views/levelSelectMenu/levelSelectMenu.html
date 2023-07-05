@@ -1,0 +1,53 @@
+<div class="levelSelectDirective">
+    <div class="fullScreenGrey" ng-show="showLevelPanel" ng-click="setLevelPanelVisible(false)"></div>
+    <!-- <div id="levelPanel" class="sideControlPanel animateLevelPanel levelPanelHide" ng-class="{levelPanelHide: !showLevelPanel}">
+            <div class="levelSelectHeader" translate="{{levelHeader}}"></div>
+            <button
+                class="topbarLevelCloseButton"
+                ng-style="getLevelCloseButtonStyle()"
+                ng-click="setLevelPanelVisible(false)">
+            </button>
+            <div class="categories-container">
+                <div class="categories">
+                    <div class="category" ng-repeat="cat in categories">
+                        <div class="category-name" translate="{{ cat.name }}"></div>
+                        <div class="levels">
+                            <div class="level" ng-repeat="lev in cat.levels | filter: {show: true}">
+                                <button class="level-name" element-mouse-hover ng-class="{selected: lev.selected}" ng-click="selectLevel(lev, $event)">{{ lev.name }}</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category" ng-if="isAppOnline">
+                        <div class="category-name" ng-hide="hideOthers" translate="SIDE_MENU.OTHER"></div>
+                        <div class="levels">
+                            <button class="logout-button" ng-click="logoutSelected()" translate="SIDE_MENU.LOG_OUT"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr ng-if="showHorizontalBarAboveCredits">
+
+            <div id="credits" class="credits">
+                <div class="contained">
+
+                    <div id="copyright" translate="SIDE_MENU.COPYRIGHT" translate-values="{ year: year }"></div>
+
+                    <div id="terms">
+                        <span translate="SIDE_MENU.USE_OF_APP"></span>
+                        <a href="http://www.amplify.com/user-terms" target="_blank" translate="SIDE_MENU.TERMS_OF_USE"></a>
+                        <span translate="SIDE_MENU.AND"></span>
+                        <a href="http://www.amplify.com/customer-privacy" target="_blank" translate="SIDE_MENU.PRIVACY_POLICY"></a>.
+                    </div>
+
+                    <div class="credit" ng-click="aboutSelected()" ng-if="showCredits()" translate="SIDE_MENU.CREDITS"></div>
+
+                </div>
+
+                <div class="version">
+                   <span translate="SIDE_MENU.VERSION"></span> {{appVersion}}
+                </div>
+
+            </div>
+    </div> -->
+</div>

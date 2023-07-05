@@ -1,0 +1,60 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="keywords" content="science,uc berkeley,lawrence,lawrence hall of science,lhs,strobe,museums,museums in sanfrancisco"><link rel="icon" href="/favicon.ico"/><link href="https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans:400,600,700" rel="stylesheet"><link rel="stylesheet" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css"><title>LHS Strobe</title><meta name="apple-mobile-web-app-title" content="LHS Strobe"/><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="default"/><meta name="theme-color" content="#b1624d"/><link rel="apple-touch-icon" sizes="180x180" href="/icon_180x180.406fee7841bddae258353bfcca097feb.png"/><link rel="apple-touch-icon" sizes="167x167" href="/icon_167x167.06242c0b79c5ab65c1b2a24d86de7f6f.png"/><link rel="apple-touch-icon" sizes="152x152" href="/icon_152x152.246e6d1a5a12957e9a4350577b32b8d0.png"/><link rel="apple-touch-icon" sizes="120x120" href="/icon_120x120.d295fe8b7d2c10f5b9b8487a0ae4776d.png"/><link rel="manifest" href="/manifest.8ffdc18be7b0f187a22db029faf48b79.json" crossorigin="use-credentials"/>
+<script>
+// Refresh Rate is how often you want to refresh the page 
+// bassed off the user inactivity. 
+var refresh_rate = 110; //<-- In seconds, change to your needs
+var last_user_action = 0;
+var has_focus = false;
+var lost_focus_count = 0;
+// If the user loses focus on the browser to many times 
+// we want to refresh anyway even if they are typing. 
+// This is so we don't get the browser locked into 
+// a state where the refresh never happens.    
+var focus_margin = 10; 
+
+// Reset the Timer on users last action
+function reset() {
+    last_user_action = 0;
+    console.log("Reset");
+}
+
+function windowHasFocus() {
+    has_focus = true;
+}
+
+function windowLostFocus() {
+    has_focus = false;
+    lost_focus_count++;
+    console.log(lost_focus_count + " <~ Lost Focus");
+}
+
+// Count Down that executes ever second
+setInterval(function () {
+    last_user_action++;
+    refreshCheck();
+}, 1000);
+
+// The code that checks if the window needs to reload
+function refreshCheck() {
+    var focus = window.onfocus;
+    if ((last_user_action >= refresh_rate && !has_focus && document.readyState == "complete") || lost_focus_count > focus_margin) {
+        window.location.replace("http://strobe.lawrencehallofscience.org");; // If this is called no reset is needed
+        reset(); // We want to reset just to make sure the location reload is not called.
+    }
+
+}
+
+window.addEventListener("focus", windowHasFocus, false);
+window.addEventListener("touchstart", reset, false);
+window.addEventListener("touchend", reset, false);
+window.addEventListener("touchcancel", reset, false);
+window.addEventListener("touchmove", reset, false);
+window.addEventListener("blur", windowLostFocus, false);
+window.addEventListener("click", reset, false);
+window.addEventListener("mousemove", reset, false);
+window.addEventListener("keypress", reset, false);
+window.addEventListener("scroll", reset, false);
+document.addEventListener("touchMove", reset, false);
+document.addEventListener("touchEnd", reset, false);
+</script>
+</head><body><noscript>If you're seeing this message, that means <strong>JavaScript has been disabled on your browser</strong>, please <strong>enable JS</strong> to make this app work.</noscript><div id="app"></div><script type="text/javascript" src="/runtime~main.8e72293943e1d19c6d6c.js"></script><script type="text/javascript" src="/vendor.e7fac116a1d186f1cd27.chunk.js"></script><script type="text/javascript" src="/main.4a3433137e7670fc069c.chunk.js"></script></body></html>

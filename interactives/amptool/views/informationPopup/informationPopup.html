@@ -1,0 +1,18 @@
+<div class="informationPopup"
+     ng-show="isPopupActive"
+	 ng-click="onPopupWindowClick( $event )"
+     ng-style="getPopupStyle()">
+
+    <div class="popupTitleContainer">
+        <div class="popupTitleText" translate="{{ popupTitle }}"></div>
+    </div>
+
+    <div class="closeButton"
+         ng-click="closePopup()"></div>
+
+    <div class="popupBody">
+        <div class="popupSubTitle">{{ popupSubTitle }} <span translate="{{ popupSubTitleMetric }}"></span></div>
+        <div class="popupSubTitle">{{ popupSecondSubTitle }} <span translate="{{ popupSecondSubTitleMetric }}"></span></div>
+        <div class="popupText" ng-bind-html="renderTranslatedHtml(popupText)"></div>
+    </div>
+</div>
